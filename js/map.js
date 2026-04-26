@@ -257,7 +257,7 @@ window.initMap = async function() {
 
   // Use fallback if nothing found
   let usedFallback = false;
-  if (resources.length < 3) {
+  if (resources.length < 999) {
     resources = getFallbackResources(userLat, userLng);
     usedFallback = true;
   }
